@@ -17,7 +17,7 @@
             class="btn btn-success btn-sm"
             v-b-modal.recipe-modal
           >
-            Create Recipe
+            ADD Recipe
           </button>
           <br /><br />
           <table class="table table-hover">
