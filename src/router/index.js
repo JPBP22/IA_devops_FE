@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Skull from '../components/Skull.vue'
-import recipe from '../components/AppAccounts.vue'
+import AppAccounts from '../components/AppAccounts.vue'
 
 Vue.use(VueRouter)
 
@@ -16,7 +16,7 @@ const routes = [
     name: 'recipe',
     component: recipe
   }
-]
+]s
 
 const router = new VueRouter({
   mode: 'history',
