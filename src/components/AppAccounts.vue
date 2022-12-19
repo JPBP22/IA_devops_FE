@@ -300,11 +300,8 @@ export default {
         .put(path, payload)
         .then((response) => {
           this.RESTgetRecipes();
-          // For message alert
           this.message = "Recipe Updated succesfully!";
-          // To actually show the message
           this.showMessage = true;
-          // To hide the message after 3 seconds
           setTimeout(() => {
             this.showMessage = false;
           }, 3000);
@@ -316,11 +313,8 @@ export default {
         .delete(path)
         .then((response) => {
           this.RESTgetRecipes();
-          // For message alert
           this.message = "Recipe Deleted succesfully!";
-          // To actually show the message
           this.showMessage = true;
-          // To hide the message after 3 seconds
           setTimeout(() => {
             this.showMessage = false;
           }, 3000);
@@ -333,7 +327,6 @@ export default {
     /***************************************************
      * FORM MANAGEMENT
      * *************************************************/
-    // Initialize forms empty
     initForm() {
       this.createRecipeForm.name = "";
       this.createRecipeForm.ingredients = "";
