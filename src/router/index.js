@@ -13,8 +13,8 @@ const routes = [
   },
   {
     path: '/',
-    name: '',
-    component: 
+    name: 'recipe',
+    component: Recipe
   }
 ]
 
