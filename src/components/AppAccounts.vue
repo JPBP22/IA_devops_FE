@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h1>Recipes</h1>
+          <h1>Recipes - JPB</h1>
           <hr />
           <br />
           <!-- Allert Message -->
