@@ -13,10 +13,10 @@ const routes = [
   },
   {
     path: '/',
-    name: 'recipe',
-    component: recipe
+    name: 'AppAccounts',
+    component: AppAccounts
   }
-]s
+]
 
 const router = new VueRouter({
   mode: 'history',
